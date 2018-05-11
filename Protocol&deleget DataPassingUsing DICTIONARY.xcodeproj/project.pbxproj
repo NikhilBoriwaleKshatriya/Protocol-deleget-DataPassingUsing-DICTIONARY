@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15E78A420A5B4FF00B42672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78A320A5B4FF00B42672 /* AppDelegate.swift */; };
+		F15E78A620A5B4FF00B42672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78A520A5B4FF00B42672 /* ViewController.swift */; };
+		F15E78A920A5B4FF00B42672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E78A720A5B4FF00B42672 /* Main.storyboard */; };
+		F15E78AB20A5B4FF00B42672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15E78AA20A5B4FF00B42672 /* Assets.xcassets */; };
+		F15E78AE20A5B4FF00B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E78AC20A5B4FF00B42672 /* LaunchScreen.storyboard */; };
+		F15E78B920A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78B820A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift */; };
+		F15E78C420A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78C320A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15E78B520A5B4FF00B42672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15E789820A5B4FF00B42672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15E789F20A5B4FF00B42672;
+			remoteInfo = "Protocol&deleget DataPassingUsing DICTIONARY";
+		};
+		F15E78C020A5B4FF00B42672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15E789820A5B4FF00B42672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15E789F20A5B4FF00B42672;
+			remoteInfo = "Protocol&deleget DataPassingUsing DICTIONARY";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15E78A020A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protocol&deleget DataPassingUsing DICTIONARY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15E78A320A5B4FF00B42672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F15E78A520A5B4FF00B42672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F15E78A820A5B4FF00B42672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15E78AA20A5B4FF00B42672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15E78AD20A5B4FF00B42672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15E78AF20A5B4FF00B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E78B420A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol&deleget DataPassingUsing DICTIONARYTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15E78B820A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift; sourceTree = "<group>"; };
+		F15E78BA20A5B4FF00B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E78BF20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol&deleget DataPassingUsing DICTIONARYUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15E78C320A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift; sourceTree = "<group>"; };
+		F15E78C520A5B4FF00B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15E789D20A5B4FF00B42672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E78B120A5B4FF00B42672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E78BC20A5B4FF00B42672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15E789720A5B4FF00B42672 = {
+			isa = PBXGroup;
+			children = (
+				F15E78A220A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY */,
+				F15E78B720A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests */,
+				F15E78C220A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests */,
+				F15E78A120A5B4FF00B42672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15E78A120A5B4FF00B42672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15E78A020A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY.app */,
+				F15E78B420A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests.xctest */,
+				F15E78BF20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15E78A220A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY */ = {
+			isa = PBXGroup;
+			children = (
+				F15E78A320A5B4FF00B42672 /* AppDelegate.swift */,
+				F15E78A520A5B4FF00B42672 /* ViewController.swift */,
+				F15E78A720A5B4FF00B42672 /* Main.storyboard */,
+				F15E78AA20A5B4FF00B42672 /* Assets.xcassets */,
+				F15E78AC20A5B4FF00B42672 /* LaunchScreen.storyboard */,
+				F15E78AF20A5B4FF00B42672 /* Info.plist */,
+			);
+			path = "Protocol&deleget DataPassingUsing DICTIONARY";
+			sourceTree = "<group>";
+		};
+		F15E78B720A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15E78B820A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift */,
+				F15E78BA20A5B4FF00B42672 /* Info.plist */,
+			);
+			path = "Protocol&deleget DataPassingUsing DICTIONARYTests";
+			sourceTree = "<group>";
+		};
+		F15E78C220A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15E78C320A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift */,
+				F15E78C520A5B4FF00B42672 /* Info.plist */,
+			);
+			path = "Protocol&deleget DataPassingUsing DICTIONARYUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15E789F20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15E78C820A5B4FF00B42672 /* Build configuration list for PBXNativeTarget "Protocol&deleget DataPassingUsing DICTIONARY" */;
+			buildPhases = (
+				F15E789C20A5B4FF00B42672 /* Sources */,
+				F15E789D20A5B4FF00B42672 /* Frameworks */,
+				F15E789E20A5B4FF00B42672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protocol&deleget DataPassingUsing DICTIONARY";
+			productName = "Protocol&deleget DataPassingUsing DICTIONARY";
+			productReference = F15E78A020A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15E78B320A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15E78CB20A5B4FF00B42672 /* Build configuration list for PBXNativeTarget "Protocol&deleget DataPassingUsing DICTIONARYTests" */;
+			buildPhases = (
+				F15E78B020A5B4FF00B42672 /* Sources */,
+				F15E78B120A5B4FF00B42672 /* Frameworks */,
+				F15E78B220A5B4FF00B42672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15E78B620A5B4FF00B42672 /* PBXTargetDependency */,
+			);
+			name = "Protocol&deleget DataPassingUsing DICTIONARYTests";
+			productName = "Protocol&deleget DataPassingUsing DICTIONARYTests";
+			productReference = F15E78B420A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15E78BE20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15E78CE20A5B4FF00B42672 /* Build configuration list for PBXNativeTarget "Protocol&deleget DataPassingUsing DICTIONARYUITests" */;
+			buildPhases = (
+				F15E78BB20A5B4FF00B42672 /* Sources */,
+				F15E78BC20A5B4FF00B42672 /* Frameworks */,
+				F15E78BD20A5B4FF00B42672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15E78C120A5B4FF00B42672 /* PBXTargetDependency */,
+			);
+			name = "Protocol&deleget DataPassingUsing DICTIONARYUITests";
+			productName = "Protocol&deleget DataPassingUsing DICTIONARYUITests";
+			productReference = F15E78BF20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15E789820A5B4FF00B42672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = infostretch;
+				TargetAttributes = {
+					F15E789F20A5B4FF00B42672 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F15E78B320A5B4FF00B42672 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F15E789F20A5B4FF00B42672;
+					};
+					F15E78BE20A5B4FF00B42672 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F15E789F20A5B4FF00B42672;
+					};
+				};
+			};
+			buildConfigurationList = F15E789B20A5B4FF00B42672 /* Build configuration list for PBXProject "Protocol&deleget DataPassingUsing DICTIONARY" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15E789720A5B4FF00B42672;
+			productRefGroup = F15E78A120A5B4FF00B42672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15E789F20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY */,
+				F15E78B320A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYTests */,
+				F15E78BE20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15E789E20A5B4FF00B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15E78AE20A5B4FF00B42672 /* LaunchScreen.storyboard in Resources */,
+				F15E78AB20A5B4FF00B42672 /* Assets.xcassets in Resources */,
+				F15E78A920A5B4FF00B42672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E78B220A5B4FF00B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E78BD20A5B4FF00B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15E789C20A5B4FF00B42672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15E78A620A5B4FF00B42672 /* ViewController.swift in Sources */,
+				F15E78A420A5B4FF00B42672 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E78B020A5B4FF00B42672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15E78B920A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E78BB20A5B4FF00B42672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15E78C420A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15E78B620A5B4FF00B42672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15E789F20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY */;
+			targetProxy = F15E78B520A5B4FF00B42672 /* PBXContainerItemProxy */;
+		};
+		F15E78C120A5B4FF00B42672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15E789F20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARY */;
+			targetProxy = F15E78C020A5B4FF00B42672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15E78A720A5B4FF00B42672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15E78A820A5B4FF00B42672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F15E78AC20A5B4FF00B42672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15E78AD20A5B4FF00B42672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15E78C620A5B4FF00B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F15E78C720A5B4FF00B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15E78C920A5B4FF00B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol&deleget DataPassingUsing DICTIONARY/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.infostretch.Protocol-deleget-DataPassingUsing-DICTIONARY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F15E78CA20A5B4FF00B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol&deleget DataPassingUsing DICTIONARY/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.infostretch.Protocol-deleget-DataPassingUsing-DICTIONARY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F15E78CC20A5B4FF00B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol&deleget DataPassingUsing DICTIONARYTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.infostretch.Protocol-deleget-DataPassingUsing-DICTIONARYTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocol&deleget DataPassingUsing DICTIONARY.app/Protocol&deleget DataPassingUsing DICTIONARY";
+			};
+			name = Debug;
+		};
+		F15E78CD20A5B4FF00B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol&deleget DataPassingUsing DICTIONARYTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.infostretch.Protocol-deleget-DataPassingUsing-DICTIONARYTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocol&deleget DataPassingUsing DICTIONARY.app/Protocol&deleget DataPassingUsing DICTIONARY";
+			};
+			name = Release;
+		};
+		F15E78CF20A5B4FF00B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol&deleget DataPassingUsing DICTIONARYUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.infostretch.Protocol-deleget-DataPassingUsing-DICTIONARYUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protocol&deleget DataPassingUsing DICTIONARY";
+			};
+			name = Debug;
+		};
+		F15E78D020A5B4FF00B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol&deleget DataPassingUsing DICTIONARYUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.infostretch.Protocol-deleget-DataPassingUsing-DICTIONARYUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protocol&deleget DataPassingUsing DICTIONARY";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15E789B20A5B4FF00B42672 /* Build configuration list for PBXProject "Protocol&deleget DataPassingUsing DICTIONARY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15E78C620A5B4FF00B42672 /* Debug */,
+				F15E78C720A5B4FF00B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15E78C820A5B4FF00B42672 /* Build configuration list for PBXNativeTarget "Protocol&deleget DataPassingUsing DICTIONARY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15E78C920A5B4FF00B42672 /* Debug */,
+				F15E78CA20A5B4FF00B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15E78CB20A5B4FF00B42672 /* Build configuration list for PBXNativeTarget "Protocol&deleget DataPassingUsing DICTIONARYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15E78CC20A5B4FF00B42672 /* Debug */,
+				F15E78CD20A5B4FF00B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15E78CE20A5B4FF00B42672 /* Build configuration list for PBXNativeTarget "Protocol&deleget DataPassingUsing DICTIONARYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15E78CF20A5B4FF00B42672 /* Debug */,
+				F15E78D020A5B4FF00B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15E789820A5B4FF00B42672 /* Project object */;
+}
