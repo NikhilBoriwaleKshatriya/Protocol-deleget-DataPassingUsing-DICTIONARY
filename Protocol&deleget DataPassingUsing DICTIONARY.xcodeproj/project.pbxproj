@@ -14,6 +14,7 @@
 		F15E78AE20A5B4FF00B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E78AC20A5B4FF00B42672 /* LaunchScreen.storyboard */; };
 		F15E78B920A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78B820A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYTests.swift */; };
 		F15E78C420A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78C320A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift */; };
+		F15E78D220A5B51C00B42672 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E78D120A5B51B00B42672 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F15E78BF20A5B4FF00B42672 /* Protocol&deleget DataPassingUsing DICTIONARYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol&deleget DataPassingUsing DICTIONARYUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15E78C320A5B4FF00B42672 /* Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_deleget_DataPassingUsing_DICTIONARYUITests.swift; sourceTree = "<group>"; };
 		F15E78C520A5B4FF00B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E78D120A5B51B00B42672 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F15E78A320A5B4FF00B42672 /* AppDelegate.swift */,
 				F15E78A520A5B4FF00B42672 /* ViewController.swift */,
+				F15E78D120A5B51B00B42672 /* SecondVC.swift */,
 				F15E78A720A5B4FF00B42672 /* Main.storyboard */,
 				F15E78AA20A5B4FF00B42672 /* Assets.xcassets */,
 				F15E78AC20A5B4FF00B42672 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15E78A620A5B4FF00B42672 /* ViewController.swift in Sources */,
+				F15E78D220A5B51C00B42672 /* SecondVC.swift in Sources */,
 				F15E78A420A5B4FF00B42672 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
